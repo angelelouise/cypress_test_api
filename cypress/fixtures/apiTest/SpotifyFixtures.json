@@ -1,0 +1,5 @@
+{
+  "apiUrl": "https://api.spotify.com/v1/",
+  "clientId": "Insert your client ID",
+  "clientSecret": "Insert your client Secret"
+}

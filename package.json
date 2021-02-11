@@ -1,0 +1,19 @@
+{
+  "name": "cypress_test_api",
+  "version": "1.0.0",
+  "description": "Projeto para testes de api usando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "npx cypress open",
+    "cypress-local-test-linux": "export CYPRESS_BASE_URL='' && export DATABASE_URL='' && npx cypress run",
+    "cypress-local-open-linux": "export CYPRESS_BASE_URL='' && export DATABASE_URL='' && npx cypress open",
+    "cypress-local-test-windows": "set CYPRESS_BASE_URL=''&& set DATABASE_URL=''&& npx cypress run",
+    "cypress-local-open-windows": "set CYPRESS_BASE_URL=''&& set DATABASE_URL=''&& npx cypress open"
+  },
+  "author": "Angele Louise",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.4.0"
+  }
+}
